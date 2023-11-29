@@ -1,0 +1,11 @@
+mvn clean install
+
+mvn test
+
+mvn compile exec:java -Dexec.mainClass="com.mycompany.app.App"
+
+mvn compile exec:java -Dexec.mainClass="com.mycompany.app.App"  -Dexec.args="First Second"
+
+To validate a JSON against a schema use https://www.jsonschemavalidator.net/
+
+See https://www.baeldung.com/maven-java-main-method
